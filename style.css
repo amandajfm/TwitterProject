@@ -4,6 +4,7 @@ body{
 
 textarea{
   overflow: hidden;
+  padding:0.3rem;
 }
 
 h1 {
@@ -38,6 +39,7 @@ form{
 #writtenTweet{
   width:50%;
   margin:0 auto;
+  margin-top: 2rem;
 }
 
 p{
