@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Twitter Project</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <h1>Twitter</h1>
+    </header>
+    <form>
+        <div>
+            <textarea id="input" name="data" rows="6" cols="50" onKeyDown="autoResize()" onKeyUp="count()"
+                placeholder="Escreva aqui seu tweet"></textarea>
+            <input type="text" id="counting" name=characters size=4>
+            <input type="submit" class="button" id="tweet" value="Tweetar"></imput>
+        </div>
+    </form>
+    <div id="writtenTweet"></div>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="moments.js"></script>
+</body>
+
+</html>
