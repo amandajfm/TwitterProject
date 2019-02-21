@@ -1,0 +1,47 @@
+body{
+  background-image: url(images/background-azul.gif);
+}
+
+textarea{
+  overflow: hidden;
+}
+
+h1 {
+  text-align:center;
+  background-color: #00BFFF;
+  margin:0 0 2rem 0;
+  padding: 1rem 0 1rem 0;
+}
+
+form{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+#input {
+  width:100%;
+  margin-bottom:1rem;
+  border-radius: 1rem;
+}
+
+#counting{
+  width:10%;
+}
+
+#button{
+  width:20%;
+}
+
+#writtenTweet{
+  width:50%;
+  margin:0 auto;
+}
+
+p{
+  padding:0.3rem;
+  background-color: white;
+  border-radius:1rem;
+}
