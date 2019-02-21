@@ -4,46 +4,46 @@ body{
 
 textarea{
   overflow: hidden;
-  padding:0.5rem;
+  padding: 0.5rem;
 }
 
 h1 {
-  text-align:center;
+  text-align: center;
   background-color: #00BFFF;
-  margin:0 0 2rem 0;
+  margin: 0 0 2rem 0;
   padding: 1rem 0 1rem 0;
 }
 
 form{
-  display:flex;
-  flex-direction:row;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  align-items:center;
-  flex-wrap:wrap;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 #input {
-  width:100%;
-  margin-bottom:1rem;
+  width: 100%;
+  margin-bottom: 1rem;
   border-radius: 1rem;
 }
 
 #counting{
-  width:10%;
+  width: 10%;
 }
 
 #button{
-  width:20%;
+  width: 20%;
 }
 
 #writtenTweet{
-  width:50%;
-  margin:0 auto;
+  width: 50%;
+  margin: 0 auto;
   margin-top: 2rem;
 }
 
 p{
-  padding:0.3rem;
+  padding: 0.3rem;
   background-color: white;
-  border-radius:1rem;
+  border-radius: 1rem;
 }
